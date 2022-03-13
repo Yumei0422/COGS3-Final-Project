@@ -1,0 +1,291 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid{
+  padding:3% 10% 5% 10%;
+  background-color: #FFEEEE;
+}
+
+.headline{
+  color: black;
+  font-size: 1.5rem;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height:1.5;
+  color: black;
+}
+
+.img-logo{
+  width:300px;
+  height:200px;
+  margin:20px;
+}
+
+a {
+    color: #ED7575;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover{
+  color:#924F4F;
+  text-decoration: none;
+}
+
+.btn{
+  color: #ED7575;
+  border-color: #ED7575;
+}
+
+.btn.save{
+  color: white;
+  background-color: #ED7575;
+}
+
+.btn:hover{
+  background-color: #ED7575;
+  border-color: #ED7575;
+}
+
+.btn.me{
+  margin-top: 30px;
+  margin-right: 30px;
+  outline-color: red;
+}
+
+.me-link:hover{
+  color:#FFFFFF;
+}
+
+.a{
+  text-decoration:none;
+}
+
+
+#projects{
+  padding: 5%;
+}
+
+.body{
+  font-size: 20px;
+}
+
+.title-text{
+  margin-bottom: 30px;
+}
+
+.DiDi{
+  border-radius: 5%;
+  transition: transform 0.3s;
+}
+
+.DiDi:hover{
+  transform:scale(1.1);
+}
+
+.title{
+  font-size: 32px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.row{
+  margin-top:3%;
+  margin-bottom:5%;
+}
+
+.project-text{
+  text-align: center;
+  font-size:18px
+}
+
+.img-fluid{
+  width:500px;
+  height:400px;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-item{
+  padding 0 18px;
+}
+
+.nav-link{
+  font-family: 'Montserrat', sans-serif;
+  font-size:1.5rem;
+  color:white;
+  margin-right: 15px;
+}
+
+/* Navigation Bar */
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight:bold;
+  font-size:2.5rem;
+  color:white;
+}
+
+.favicon{
+  width:100px;
+}
+
+.title-image{
+  margin-top:-30px;
+  margin-left:100px;
+  width:70%;
+}
+
+
+#qualities{
+  padding: 10% 10%;
+  background-color : #fff;
+  z-index: 1;
+  position: relative;
+}
+
+.feature-box{
+  text-align: center;
+}
+
+
+h2.title-text{
+  text-align:center;
+  font-weight: bold;
+  padding:3%;
+  font-size: 40px;
+}
+
+p{
+  font-size: 17px;
+}
+
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.icon{
+  color:#ef8712;
+  margin-bottom:1rem;
+}
+
+.icon:hover{
+  color: #D8EBFE;
+}
+
+#testimonials{
+  background-color: #FCEFEE;
+  text-align: center;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+h2.quotes{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5;
+  font-weight: bold;
+  font-size:26px;
+  color:black;
+}
+
+
+.quotes{
+  color:white;
+}
+
+.testimonials-image {
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  margin:10px;
+}
+
+/* Carousel icons change color to black */
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon{
+  width:40px;
+  height:40px;
+}
+
+.title-text.contact{
+  margin-bottom:-15px;
+}
+
+.button-send{
+  margin-top: 30px;
+}
+
+#contact{
+  background-color: #FFEEEE;
+  padding:5%;
+}
+
+.gallery{
+  margin-top: :100px;
+}
+
+.art{
+  height:350px;
+}
+
+/* Type Animation Effect */
+h1 span.typed-text {
+  font-weight: normal;
+  color: #FF9B9B;
+}
+
+h1 span.cursor {
+  display: inline-block;
+  background-color: #FF9B9B;
+  color: #FF9B9B;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+
+h1 span.cursor.typing {
+  animation: none;
+}
+
+@keyframes blink {
+  0%  { background-color: #FF9B9B; }
+  49% { background-color: #FF9B9B; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #FF9B9B; }
+}
+
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
